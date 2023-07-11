@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Base Apparel coming soon page</title>
+</head>
+<body>
+    <header class="hero">
+      <nav>
+       <img src="images/logo.svg" alt="">
+      </nav>
+      <main class="wrapper">
+       <article class="left-cont">
+        <img src="images/logo.svg" alt="">
+         <h1><span>we're</span> coming soon</h1>
+         <p> Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form>
+            <div class="email">
+              <input type="email" placeholder="Email Address" required>
+              <label for="email">
+               <img src="images/icon-error.svg" alt="">
+              </label>
+              <button id="btn" type="submit"><img src="images/icon-arrow.svg" alt=""></button> 
+            </div>
+          <span id="error">Please provide a valid email</span>
+        </form>
+    </article>
+      <article class="right-cont">
+       <picture>
+         <source media="(max-width:829px)" srcset="images/hero-mobile.jpg">
+         <img src="images/hero-desktop.jpg" alt="description">
+       </picture>
+      </article>
+    </main>
+    </header>  
+ <script src="script.js"></script>
+</body>
+</html>
